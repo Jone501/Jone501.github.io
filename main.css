@@ -163,6 +163,7 @@ p {
     left: calc(-30vw * (1 - var(--aspect-w)));
   }
   .main_group {
+    right: calc(150px * var(--aspect-w));
     margin-right: calc(150px * var(--aspect-w));
     top: calc(-60vh * var(--aspect-w));
     /* right: anchor(right); */
